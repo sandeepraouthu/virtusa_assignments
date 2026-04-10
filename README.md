@@ -1,3 +1,4 @@
+
 # Practice Assignments
 
 ## Java Use Case
@@ -14,3 +15,4 @@ This repository contains Java, SQL, and Python use case implementations created 
 
 ## Note
 All work is original and created by me.
+
