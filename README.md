@@ -5,7 +5,7 @@
 Password Validator System
 
 ## SQL Use Case
-Library Management System
+The "Digital Library" Audit
 
 ## Python Use Case
 Fare Calculator
