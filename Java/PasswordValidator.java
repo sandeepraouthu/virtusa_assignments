@@ -3,14 +3,12 @@ public class PasswordValidator
 {
     public static void main(String[] args)
     {
-        // user input(password for validation)
         Scanner sc = new Scanner(System.in);
         boolean v = false;
         while(!v)
         {
             System.out.println("Enter your password");
             String str = sc.next();
-            // function call to validate the password
             v=validatePass(str);
             if(v){
                 System.out.println("passsword is Valid");
@@ -18,8 +16,6 @@ public class PasswordValidator
             }
         }
     }
-
-    // method to validate the user password 
     public static boolean validatePass(String s)
     {
         boolean chrtr = false;
@@ -34,17 +30,14 @@ public class PasswordValidator
         else{
             for(char ch : s.toCharArray())
             {
-                // checking for uppercase
                 if(Character.isUpperCase(ch))
                 {
                     chrtr=true;
                 }
-                // checking for digit 
                 if(Character.isDigit(ch))
                 {
                     digt=true;
                 }
-                // checking for special character
                 if(!Character.isLetterOrDigit(ch))
                 {
                     spcl=true;
